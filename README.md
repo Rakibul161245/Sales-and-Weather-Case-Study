@@ -66,3 +66,4 @@ SELECT w.Date, w.Temp9am, w.Temp3pm, w.Rainfall, s.Quantity_Sold, s.Sales_Amount
 FROM weather w
 JOIN sales s ON w.Date = s.Date
 ORDER BY w.Date;
+
