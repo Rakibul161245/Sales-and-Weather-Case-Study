@@ -59,7 +59,6 @@ The following analysis was conducted:
 - **Product-Specific Trends**: Analyzed if certain product categories were more affected by weather conditions.
 
 ### SQL Query for Analysis:
-
 ```sql
 -- Correlation between weather and sales performance
 SELECT w.Date, w.Temp9am, w.Temp3pm, w.Rainfall, s.Quantity_Sold, s.Sales_Amount
