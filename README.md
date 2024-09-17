@@ -67,18 +67,5 @@ JOIN sales s ON w.Date = s.Date
 ORDER BY w.Date;
 
 
-### For R Markdown Files
-
-In an R Markdown (`.Rmd`) file, you should also use triple backticks to denote code blocks and specify `sql` for SQL syntax highlighting. Here’s how you should format it:
-
-```rmarkdown
-### SQL Query for Analysis:
-
-```{sql}
--- Correlation between weather and sales performance
-SELECT w.Date, w.Temp9am, w.Temp3pm, w.Rainfall, s.Quantity_Sold, s.Sales_Amount
-FROM weather w
-JOIN sales s ON w.Date = s.Date
-ORDER BY w.Date;
 
 
